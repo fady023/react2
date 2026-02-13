@@ -1,0 +1,33 @@
+nav{
+    /* background-color: lightgray;
+     */
+     background: linear-gradient(to right,navy,black,gray);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    color:antiquewhite;
+
+
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 19%;
+        width: 20%;
+
+        li a{
+            text-decoration: none;
+            color: azure;
+            transition: all 0.5s;
+    
+            &:hover{
+               background-color: darkkhaki;
+               padding: 12%;
+        
+            }
+        }
+
+
+    }
+}
